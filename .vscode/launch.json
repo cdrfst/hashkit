@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "调试: hash",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}",
+      "args": ["hash", "${workspaceFolder}/go.mod", "-a", "all"]
+    },
+    {
+      "name": "调试: verify 单个文件",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}",
+      "args": ["verify", "${workspaceFolder}/go.mod", "d41d8cd98f00b204e9800998ecf8427e"]
+    }
+  ]
+}

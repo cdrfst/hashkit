@@ -1,0 +1,2 @@
+cfca1aacd7f6564a550d570b410e11d0  hashkit.exe:Zone.Identifier
+4fbafd6948b6529caa2b78e476359875  test/abc.txt
